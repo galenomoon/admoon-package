@@ -1,9 +1,8 @@
 import api_client from "../config/api_client";
 import { IProduct, IProductPaginated } from "../interfaces/product";
 
-export async function getProduct(product_slug: string) {
+export async function getProduct(product_slug?: string) {
   return await new Promise<IProduct>(async (resolve, reject) => {
-    if (!product_slug) return reject("product_slug is required");
 
     try {
       const endpoint = `products/${product_slug}`;

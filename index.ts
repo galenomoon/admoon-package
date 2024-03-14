@@ -7,5 +7,4 @@ export * from "./functions/index";
 export * from "./config/api_client";
 
 //interfaces
-export * from "./interfaces/product";
-export * from "./interfaces/category";
+export * from "./interfaces/index";

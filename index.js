@@ -1,4 +1,5 @@
 "use strict";
+// Desc: This file is the entry point for the package
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
@@ -14,6 +15,10 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-__exportStar(require("./functions/products"), exports);
+//functions
+__exportStar(require("./functions/index"), exports);
+//config
 __exportStar(require("./config/api_client"), exports);
+//interfaces
 __exportStar(require("./interfaces/product"), exports);
+__exportStar(require("./interfaces/category"), exports);
