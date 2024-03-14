@@ -1,0 +1,23 @@
+{
+  "name": "admoon",
+  "version": "1.1.4",
+  "description": "All functions for the Admoon project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "rm -rf dist && npx tsc && npm publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "nookies": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.26",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
