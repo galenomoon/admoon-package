@@ -2,7 +2,6 @@
 
 //functions
 export * from "./functions/index";
-export * from "./functions/categories";
 
 //config
 export * from "./config/api_client";
