@@ -17,8 +17,6 @@ const api_client_1 = __importDefault(require("../config/api_client"));
 function getProduct(product_slug) {
     return __awaiter(this, void 0, void 0, function* () {
         return yield new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
-            if (!product_slug)
-                return reject("product_slug is required");
             try {
                 const endpoint = `products/${product_slug}`;
                 const { data } = (yield api_client_1.default.get(endpoint)) || {};

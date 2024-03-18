@@ -20,5 +20,4 @@ __exportStar(require("./functions/index"), exports);
 //config
 __exportStar(require("./config/api_client"), exports);
 //interfaces
-__exportStar(require("./interfaces/product"), exports);
-__exportStar(require("./interfaces/category"), exports);
+__exportStar(require("./interfaces/index"), exports);
